@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ajustes Generales</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+		integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="mensaje-publicitario">
+		<h3 class="mensaje-publicitario__titulo centrar-text">La mejor tienda de Gral. San Martín</h3>
+	</div>
+	<header class="header-principal">
+		<div class="contenedor">
+			<div class="barrar-header">
+				<div class="search-user-menu flex-h-v">
+					<a href="index.html" class="logo">
+						<img src="img/logotipo.png" alt="logotipo">
+					</a>
+					<div class="buscador flex-align">
+						<input type="text" placeholder="Buscar producto..." class="buscador__campo">
+						<i class="fas fa-search buscador__icon"></i>
+					</div>
+					<div class="carrito">
+						<a href="carrito.html" class=" carrito__icon"><i class="fas fa-shopping-cart"></i></a>
+						<!-- <span class="carrito__producto flex-h-v">0</span> -->
+						<i class="fas fa-user carrito__usuario"></i>
+					</div>
+					<i class="fas fa-bars menu-principal__open"></i>
+				</div>
+			</div>
+		</div>
+		<section class="usuario">
+			<div class="contenedor">
+				<form class="formulario">
+					<h3 class="usuario__titulo">Crear Cuenta</h3>
+					<input class="formulario__campo" type="text" id="nombre" placeholder="Nombre">
+					<input class="formulario__campo" type="text" id="apellido" placeholder="Apellido">
+					<input class="formulario__campo" type="text" id="dni" placeholder="D.N.I">
+					<input class="formulario__campo" type="text" id="correo" placeholder="E-Mail">
+					<input class="formulario__campo" type="password" id="password" placeholder="Contraseña">
+					<input class="formulario__btn" type="submit" value="Registrarme">
+
+				</form>
+			</div>
+		</section>
+		<nav class="menu-principal">
+			<ul class="menu">
+				<li class="menu__items"><a class="menu__link" href="#">Inicio</a></li>
+				<li class="menu__items"><a class="menu__link" href="#">Ofertas</a></li>
+				<li class="menu__items item-submenu"><a class="menu__link subcategoria" href="#"><i class="fas fa-caret-down submenu__icon"></i>Categorias</a>
+				<ul class="submenu">
+					<li class="submenu__items"><a class="submenu__link" href="#">Lateos</a></li>
+					<li class="submenu__items"><a class="submenu__link" href="#">Pasta</a></li>
+					<li class="submenu__items"><a class="submenu__link" href="#">Carne</a></li>
+					<li class="submenu__items"><a class="submenu__link" href="#">Bebidas</a></li>
+					<li class="submenu__items"><a class="submenu__link" href="#">Bebidas</a></li>
+					<li class="submenu__items"><a class="submenu__link" href="#">Bebidas</a></li>
+				</ul>
+				</li>
+				<li class="menu__items"><a class="menu__link" href="add_productos.html">Agregar Producto</a></li>
+				<i class="fas fa-times menu-principal__close"></i>
+				<li class="menu__items"><a class="menu__link" href="add_categorias.html">Editar categorias</a></li>
+			</ul>
+		</nav>
+	</header>
+		
+	<main class="contenido-principal">
+		<div class="contenedor">
+			<section class="configuraciones-generales">
+				<h2 class="ajuste__titulo">Ajustes Generales</h2>
+				<div class="barra-configuracion"></div>
+				<nav class="configuracion__opciones">
+					<a class="configuracion__opciones__link active" href="add_categorias.html">Agregar Categoria</a>
+					<a class="configuracion__opciones__link" href="add_productos.html">Agregar Producto</a>
+				</nav>
+				<form class="categorias-campos">
+					<fieldset>
+						<legend class="categorias-campos__titulo">Agregar categoria</legend>
+						<div class="campos-add">
+							<div class="campo">
+								<input class="campo__input" type="text" placeholder="Nombre de la categoria">
+							</div>
+							<input type="submit" value="Agregar" class="formulario__btn">
+						</div>
+
+					</fieldset>
+					<fieldset>
+						<legend class="categorias-campos__titulo">Categorias existentes</legend>
+						<div class="categotias-existentes">
+							<div class="campo__categoria">
+								<span class="campo__categoria__id">01 :</span>
+								<span class="campo__categoria__nombre">Bebidas</span>
+								<a class="campo__categoria__btn" href="#">Eliminar</a>
+							</div>
+						</div>
+						<div class="categotias-existentes">
+							<div class="campo__categoria">
+								<span class="campo__categoria__id">02 :</span>
+								<span class="campo__categoria__nombre">Pasta</span>
+								<a class="campo__categoria__btn" href="#">Eliminar</a>
+							</div>
+						</div>
+						<div class="categotias-existentes">
+							<div class="campo__categoria">
+								<span class="campo__categoria__id">03 :</span>
+								<span class="campo__categoria__nombre">Carne</span>
+								<a class="campo__categoria__btn" href="#">Eliminar</a>
+							</div>
+						</div>
+						<div class="categotias-existentes">
+							<div class="campo__categoria">
+								<span class="campo__categoria__id">04 :</span>
+								<span class="campo__categoria__nombre">Bebidas</span>
+								<a class="campo__categoria__btn" href="#">Eliminar</a>
+							</div>
+						</div>
+						<div class="categotias-existentes">
+							<div class="campo__categoria">
+								<span class="campo__categoria__id">05 :</span>
+								<span class="campo__categoria__nombre">Bebidas</span>
+								<a class="campo__categoria__btn" href="#">Eliminar</a>
+							</div>
+						</div>
+					</fieldset>
+				</form>
+			</section>
+			
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="contenedor">
+			<section class="contacto">
+				<h3 class="footer__contacto">Contacto</h3>
+				<div class="contacto__informacion">
+					<span class="contacto__direccion contacto__item"><i class="fas fa-map-marker-alt"></i>Uruguay 490, Gral. José de San Martín, Chaco</span>
+				    <span class="contacto__email contacto__item"><i class="fas fa-envelope-open-text"></i>ejemplo@ejemplo.com</span>
+				    <span class="contacto__tel contacto__item"><i class="fas fa-headset"></i>(+54) 123-456-789</span>
+				</div>
+			</section>
+			<section class="copy">
+				<p class="copy__nombre">Copyright &copy; 2021 Mr Bot</p>
+			</section>
+			<div class="metodos-pago">
+				<span class="maestro tarjeta"></span>
+				<span class="mastercard tarjeta"></span>
+				<span class="visa tarjeta"></span>
+			</div>
+		</div>
+	</footer>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
