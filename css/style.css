@@ -490,15 +490,16 @@ ul, li
 }
 .exito
 {
-	background-color: var(--primario);
+	background-color: #000;
 	padding: 1rem 2rem;
 	text-align: center;
-	color: var(--blanco);
+	color: #fff;
 	position: fixed;
 	z-index: 9999;
-	top: 20%;
-	left: 40%;
+	top: 20rem;
+	left: 40rem;
 	animation: fadeIn .3s forwards;
+	display: block;
 }
 @keyframes fadeIn {
     from {
