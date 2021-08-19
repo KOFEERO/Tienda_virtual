@@ -1,5 +1,5 @@
 // Ventana modal de productos carrito
-const producto = document.querySelector(".producto");
+const producto = document.querySelector(".body");
 function agregar() {
 	const add = document.createElement("SPAN");
 	add.textContent = "El producto se agrego correctamente";

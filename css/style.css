@@ -454,6 +454,11 @@ ul, li
 	transition-property: box-shadow, background;
 	transition-duration: .3s;
 }
+.producto__imagen
+{
+	width: 400px;
+	height: 300px;
+}
 .producto:hover
 {
 	box-shadow: 1px 2px 13px -4px #000000;
@@ -490,16 +495,15 @@ ul, li
 }
 .exito
 {
-	background-color: #000;
+	background-color: var(--primario);
 	padding: 1rem 2rem;
 	text-align: center;
-	color: #fff;
+	color: var(--blanco);
 	position: fixed;
 	z-index: 9999;
-	top: 20rem;
-	left: 40rem;
+	top: 20%;
+	left: 40%;
 	animation: fadeIn .3s forwards;
-	display: block;
 }
 @keyframes fadeIn {
     from {
