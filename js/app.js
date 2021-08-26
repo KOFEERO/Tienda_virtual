@@ -21,8 +21,8 @@ openSubmenu.addEventListener('click', function(){
 });
 // Registro de usuarios
 const openUser = document.querySelector('.carrito__usuario');
-const formulario = document.querySelector('.usuario');
-const tituloUser = document.querySelector('.usuario__titulo');
+const formulario = document.querySelector('.funciones-registro ');
+// const tituloUser = document.querySelector('.usuario__titulo');
 
 openUser.addEventListener('click', function () {
 	formulario.classList.toggle("display-user");

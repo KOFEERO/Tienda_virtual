@@ -306,15 +306,30 @@ ul, li
 	transition: .4s ease-in-out all;
 }
 /*-------------- Usuario - registro y iniciar sesión --------------*/
-.usuario
-{
-	width: 100%;
-	height: 100vh;
-	z-index: 100;
-	/* background-color: var(--blancoClaro); */
-	position:absolute;
-	transform: translateY(-120%);
-	transition: transform .4s ease-in-out;
+.registro-sistema {
+	margin-top: -60rem;
+}
+.funciones-registro {
+	width: 25rem;
+	margin: 0 auto;
+	background-color: var(--blanco);
+	box-shadow: 0px 1px 3px -1px #000000;
+	position: absolute;
+	right: 20rem;
+	z-index: 4000;
+	transform: translateY(-300%);
+	transition: transform .3s ease-in-out;
+	border-radius: .4rem;
+}
+.funciones-registro a {
+	text-align: center;
+	color: var(--negro);
+	padding: 1rem 2rem;
+	
+}
+.funciones-registro a:hover {
+	color: var(--secundario);
+	background-color: var(--negro);
 }
 .usuario__titulo
 {
@@ -358,6 +373,16 @@ ul, li
 	cursor: pointer;
 	border: none;
 	padding: 1rem;
+}
+.botones-productos a {
+	margin-bottom: 1rem;
+	text-align: center;
+}
+.formulario a {
+	text-align: center;
+	margin-top: 1rem;
+	z-index: 300;
+	color: var(--secundario);
 }
 /*-------------- Estilos para bajar el modal de registro --------------*/
 .display-user
@@ -808,6 +833,7 @@ ul, li
 {
 	color: var(--secundario);
 	transition: color .3s ease;
+	margin-right: 2rem;
 }
 .campo__categoria__btn:hover
 {

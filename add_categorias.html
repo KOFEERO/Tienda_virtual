@@ -35,33 +35,27 @@
 				</div>
 			</div>
 		</div>
-		<section class="usuario">
-			<div class="contenedor">
-				<form class="formulario">
-					<h3 class="usuario__titulo">Crear Cuenta</h3>
-					<input class="formulario__campo" type="text" id="nombre" placeholder="Nombre">
-					<input class="formulario__campo" type="text" id="apellido" placeholder="Apellido">
-					<input class="formulario__campo" type="text" id="dni" placeholder="D.N.I">
-					<input class="formulario__campo" type="text" id="correo" placeholder="E-Mail">
-					<input class="formulario__campo" type="password" id="password" placeholder="Contraseña">
-					<input class="formulario__btn" type="submit" value="Registrarme">
-
-				</form>
+		<section class="registro-principal">
+			<div class="funciones-registro">
+				<a href="login.html">Inciar Sesión</a>
+				<a href="registro.html">Crear una cuenta</a>
+			</div>
 			</div>
 		</section>
 		<nav class="menu-principal">
 			<ul class="menu">
 				<li class="menu__items"><a class="menu__link" href="#">Inicio</a></li>
 				<li class="menu__items"><a class="menu__link" href="#">Ofertas</a></li>
-				<li class="menu__items item-submenu"><a class="menu__link subcategoria" href="#"><i class="fas fa-caret-down submenu__icon"></i>Categorias</a>
-				<ul class="submenu">
-					<li class="submenu__items"><a class="submenu__link" href="#">Lateos</a></li>
-					<li class="submenu__items"><a class="submenu__link" href="#">Pasta</a></li>
-					<li class="submenu__items"><a class="submenu__link" href="#">Carne</a></li>
-					<li class="submenu__items"><a class="submenu__link" href="#">Bebidas</a></li>
-					<li class="submenu__items"><a class="submenu__link" href="#">Bebidas</a></li>
-					<li class="submenu__items"><a class="submenu__link" href="#">Bebidas</a></li>
-				</ul>
+				<li class="menu__items item-submenu"><a class="menu__link subcategoria" href="#"><i
+							class="fas fa-caret-down submenu__icon"></i>Categorias</a>
+					<ul class="submenu">
+						<li class="submenu__items"><a class="submenu__link" href="#">Lateos</a></li>
+						<li class="submenu__items"><a class="submenu__link" href="#">Pasta</a></li>
+						<li class="submenu__items"><a class="submenu__link" href="#">Carne</a></li>
+						<li class="submenu__items"><a class="submenu__link" href="#">Bebidas</a></li>
+						<li class="submenu__items"><a class="submenu__link" href="#">Bebidas</a></li>
+						<li class="submenu__items"><a class="submenu__link" href="#">Bebidas</a></li>
+					</ul>
 				</li>
 				<li class="menu__items"><a class="menu__link" href="add_productos.html">Agregar Producto</a></li>
 				<i class="fas fa-times menu-principal__close"></i>
@@ -69,7 +63,7 @@
 			</ul>
 		</nav>
 	</header>
-		
+
 	<main class="contenido-principal">
 		<div class="contenedor">
 			<section class="configuraciones-generales">
@@ -97,6 +91,7 @@
 								<span class="campo__categoria__id">01 :</span>
 								<span class="campo__categoria__nombre">Bebidas</span>
 								<a class="campo__categoria__btn" href="#">Eliminar</a>
+								<a class="campo__categoria__btn" href="#">Editar</a>
 							</div>
 						</div>
 						<div class="categotias-existentes">
@@ -104,6 +99,7 @@
 								<span class="campo__categoria__id">02 :</span>
 								<span class="campo__categoria__nombre">Pasta</span>
 								<a class="campo__categoria__btn" href="#">Eliminar</a>
+								<a class="campo__categoria__btn" href="#">Editar</a>
 							</div>
 						</div>
 						<div class="categotias-existentes">
@@ -111,6 +107,7 @@
 								<span class="campo__categoria__id">03 :</span>
 								<span class="campo__categoria__nombre">Carne</span>
 								<a class="campo__categoria__btn" href="#">Eliminar</a>
+								<a class="campo__categoria__btn" href="#">Editar</a>
 							</div>
 						</div>
 						<div class="categotias-existentes">
@@ -118,6 +115,7 @@
 								<span class="campo__categoria__id">04 :</span>
 								<span class="campo__categoria__nombre">Bebidas</span>
 								<a class="campo__categoria__btn" href="#">Eliminar</a>
+								<a class="campo__categoria__btn" href="#">Editar</a>
 							</div>
 						</div>
 						<div class="categotias-existentes">
@@ -125,12 +123,13 @@
 								<span class="campo__categoria__id">05 :</span>
 								<span class="campo__categoria__nombre">Bebidas</span>
 								<a class="campo__categoria__btn" href="#">Eliminar</a>
+								<a class="campo__categoria__btn" href="#">Editar</a>
 							</div>
 						</div>
 					</fieldset>
 				</form>
 			</section>
-			
+
 		</div>
 	</main>
 	<footer class="footer">
@@ -138,9 +137,11 @@
 			<section class="contacto">
 				<h3 class="footer__contacto">Contacto</h3>
 				<div class="contacto__informacion">
-					<span class="contacto__direccion contacto__item"><i class="fas fa-map-marker-alt"></i>Uruguay 490, Gral. José de San Martín, Chaco</span>
-				    <span class="contacto__email contacto__item"><i class="fas fa-envelope-open-text"></i>ejemplo@ejemplo.com</span>
-				    <span class="contacto__tel contacto__item"><i class="fas fa-headset"></i>(+54) 123-456-789</span>
+					<span class="contacto__direccion contacto__item"><i class="fas fa-map-marker-alt"></i>Uruguay 490,
+						Gral. José de San Martín, Chaco</span>
+					<span class="contacto__email contacto__item"><i
+							class="fas fa-envelope-open-text"></i>ejemplo@ejemplo.com</span>
+					<span class="contacto__tel contacto__item"><i class="fas fa-headset"></i>(+54) 123-456-789</span>
 				</div>
 			</section>
 			<section class="copy">
