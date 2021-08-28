@@ -46,15 +46,16 @@
 			<ul class="menu">
 				<li class="menu__items"><a class="menu__link" href="#">Inicio</a></li>
 				<li class="menu__items"><a class="menu__link" href="#">Ofertas</a></li>
-				<li class="menu__items item-submenu"><a class="menu__link subcategoria" href="#"><i class="fas fa-caret-down submenu__icon"></i>Categorias</a>
-				<ul class="submenu">
-					<li class="submenu__items"><a class="submenu__link" href="#">Lateos</a></li>
-					<li class="submenu__items"><a class="submenu__link" href="#">Pasta</a></li>
-					<li class="submenu__items"><a class="submenu__link" href="#">Carne</a></li>
-					<li class="submenu__items"><a class="submenu__link" href="#">Bebidas</a></li>
-					<li class="submenu__items"><a class="submenu__link" href="#">Bebidas</a></li>
-					<li class="submenu__items"><a class="submenu__link" href="#">Bebidas</a></li>
-				</ul>
+				<li class="menu__items item-submenu"><a class="menu__link subcategoria" href="#"><i
+							class="fas fa-caret-down submenu__icon"></i>Categorias</a>
+					<ul class="submenu">
+						<li class="submenu__items"><a class="submenu__link" href="#">Lateos</a></li>
+						<li class="submenu__items"><a class="submenu__link" href="#">Pasta</a></li>
+						<li class="submenu__items"><a class="submenu__link" href="#">Carne</a></li>
+						<li class="submenu__items"><a class="submenu__link" href="#">Bebidas</a></li>
+						<li class="submenu__items"><a class="submenu__link" href="#">Bebidas</a></li>
+						<li class="submenu__items"><a class="submenu__link" href="#">Bebidas</a></li>
+					</ul>
 				</li>
 				<li class="menu__items"><a class="menu__link" href="add_productos.html">Agregar Producto</a></li>
 				<i class="fas fa-times menu-principal__close"></i>
@@ -62,7 +63,7 @@
 			</ul>
 		</nav>
 	</header>
-		
+
 	<main class="contenido-principal">
 		<div class="contenedor">
 			<section class="configuraciones-generales">
@@ -75,85 +76,85 @@
 				<div class="agregar-productos">
 					<form>
 						<fieldset>
-						<legend>Agregar Producto</legend>
-						<div class="campos-productos">
-							<div class="campo_p">
-								<input class="campo__input" type="text" placeholder="Nombre del producto">
+							<legend>Agregar Producto</legend>
+							<div class="campos-productos">
+								<div class="campo_p">
+									<input class="campo__input" type="text" placeholder="Nombre del producto">
+								</div>
+								<div class="campo_p">
+									<input class="campo__input" type="text" placeholder="Precio del producto">
+								</div>
+								<div class="campo_p">
+									<label class="campo_p-disponible" for="disponibilidad">Disponible</label>
+									<input type="checkbox">
+								</div>
+								<div class="campo_p">
+									<label for="file" class="producto_add-imagen" title="Agregar una imágen"><i class="fas fa-file-image"></i></label>
+									<input class="campo_p-file" id="file" type="file" accept=".jpg,.png">
+								</div>
 							</div>
 							<div class="campo_p">
-								<input class="campo__input" type="text" placeholder="Precio del producto">
-							</div>
-							<div class="campo_p">
-								<label class="campo_p-disponible" for="disponibilidad">Disponible</label>
-							<input type="checkbox">
-							</div>
-							<div class="campo_p">
-								<label for="file" class="formulario__btn">Agregar imágen</label>
-								<input class="campo_p-file" id="file" type="file" accept=".jpg,.png">
-							</div>
-						</div>
-						<div class="campo_p">
 								<input type="submit" class="formulario__btn" value="Agregar producto">
 							</div>
-					</fieldset>
+						</fieldset>
 					</form>
 					<div class="productos-existentes">
 						<fieldset>
 							<legend>Productos Agregados</legend>
 							<div class="productos-division">
 								<div class="producto__existente">
-								<img class="producto__existente-img" src="img/fideos01.png" alt="">
-								<div class="producto__existente-informacion">
-									<span class="producto__existente-nombre">Fideo Molto</span>
-									<span class="producto__existente-precio">$35</span>
-									<span class="producto__existente-disponible">Disponible</span>
-									<div class="botones-productos">
-										<a class="formulario__btn" href="#">Eliminar</a>
-										<a href="#" class="formulario__btn">Editar</a>
+									<img class="producto__existente-img" src="img/fideos01.png" alt="">
+									<div class="producto__existente-informacion">
+										<span class="producto__existente-nombre">Fideo Molto</span>
+										<span class="producto__existente-precio">$35</span>
+										<span class="producto__existente-disponible">Disponible</span>
+										<div class="botones-productos">
+											<a class="formulario__btn" href="#">Eliminar</a>
+											<a href="#" class="formulario__btn">Editar</a>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="producto__existente">
-								<img class="producto__existente-img" src="img/fideos02.png" alt="">
-								<div class="producto__existente-informacion">
-									<span class="producto__existente-nombre">Fideo Molto</span>
-									<span class="producto__existente-precio">$35</span>
-									<span class="producto__existente-disponible">Disponible</span>
-									<div class="botones-productos">
-										<a class="formulario__btn" href="#">Eliminar</a>
-										<a href="#" class="formulario__btn">Editar</a>
+								<div class="producto__existente">
+									<img class="producto__existente-img" src="img/fideos02.png" alt="">
+									<div class="producto__existente-informacion">
+										<span class="producto__existente-nombre">Fideo Molto</span>
+										<span class="producto__existente-precio">$35</span>
+										<span class="producto__existente-disponible">Disponible</span>
+										<div class="botones-productos">
+											<a class="formulario__btn" href="#">Eliminar</a>
+											<a href="#" class="formulario__btn">Editar</a>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="producto__existente">
-								<img class="producto__existente-img" src="img/fideos03.png" alt="">
-								<div class="producto__existente-informacion">
-									<span class="producto__existente-nombre">Fideo Molto</span>
-									<span class="producto__existente-precio">$35</span>
-									<span class="producto__existente-disponible">Disponible</span>
-									<div class="botones-productos">
-										<a class="formulario__btn" href="#">Eliminar</a>
-										<a href="#" class="formulario__btn">Editar</a>
+								<div class="producto__existente">
+									<img class="producto__existente-img" src="img/fideos03.png" alt="">
+									<div class="producto__existente-informacion">
+										<span class="producto__existente-nombre">Fideo Molto</span>
+										<span class="producto__existente-precio">$35</span>
+										<span class="producto__existente-disponible">Disponible</span>
+										<div class="botones-productos">
+											<a class="formulario__btn" href="#">Eliminar</a>
+											<a href="#" class="formulario__btn">Editar</a>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="producto__existente">
-								<img class="producto__existente-img" src="img/fideos01.png" alt="">
-								<div class="producto__existente-informacion">
-									<span class="producto__existente-nombre">Fideo Molto</span>
-									<span class="producto__existente-precio">$35</span>
-									<span class="producto__existente-disponible">Disponible</span>
-									<div class="botones-productos">
-										<a class="formulario__btn" href="#">Eliminar</a>
-										<a href="#" class="formulario__btn">Editar</a>
+								<div class="producto__existente">
+									<img class="producto__existente-img" src="img/fideos01.png" alt="">
+									<div class="producto__existente-informacion">
+										<span class="producto__existente-nombre">Fideo Molto</span>
+										<span class="producto__existente-precio">$35</span>
+										<span class="producto__existente-disponible">Disponible</span>
+										<div class="botones-productos">
+											<a class="formulario__btn" href="#">Eliminar</a>
+											<a href="#" class="formulario__btn">Editar</a>
+										</div>
 									</div>
 								</div>
-							</div>
 							</div>
 						</fieldset>
 					</div>
 				</div>
-			</div>
+		</div>
 		</section>
 	</main>
 	<footer class="footer">
@@ -161,9 +162,11 @@
 			<section class="contacto">
 				<h3 class="footer__contacto">Contacto</h3>
 				<div class="contacto__informacion">
-					<span class="contacto__direccion contacto__item"><i class="fas fa-map-marker-alt"></i>Uruguay 490, Gral. José de San Martín, Chaco</span>
-				    <span class="contacto__email contacto__item"><i class="fas fa-envelope-open-text"></i>ejemplo@ejemplo.com</span>
-				    <span class="contacto__tel contacto__item"><i class="fas fa-headset"></i>(+54) 123-456-789</span>
+					<span class="contacto__direccion contacto__item"><i class="fas fa-map-marker-alt"></i>Uruguay 490,
+						Gral. José de San Martín, Chaco</span>
+					<span class="contacto__email contacto__item"><i
+							class="fas fa-envelope-open-text"></i>ejemplo@ejemplo.com</span>
+					<span class="contacto__tel contacto__item"><i class="fas fa-headset"></i>(+54) 123-456-789</span>
 				</div>
 			</section>
 			<section class="copy">
