@@ -2,28 +2,7 @@
 const openMenu = document.querySelector('.menu-principal__open');
 const closeMenu = document.querySelector('.menu-principal__close');
 const menu = document.querySelector('.menu');
-const cantidadAdd = document.querySelector('.mas');
-const cantidadRemove = document.querySelector('.menos');
-const cantidadProducto = document.querySelector('.cantidadP');
 
-// Para aumentar la cantidad de producto en el carrito
-cantidadAdd.addEventListener('click', function(){
-	if(cantidadProducto.value >= 50) {
-		console.log("No puedes ingresar mas de 50 cantidad");
-	}
-	else {
-		cantidadProducto.value++;
-	}
-});
-
-cantidadRemove.addEventListener('click', function(){
-	if(cantidadProducto.value <= 0) {
-		console.log("No puedes ingresar cantidad menos a 0");
-	}
-	else {
-		cantidadProducto.value--;
-	}
-});
 
 
 openMenu.addEventListener('click', function() {
